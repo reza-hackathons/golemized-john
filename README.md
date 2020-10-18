@@ -18,9 +18,12 @@ A golemized docker image for cracking some passwd file in a distributed manner!
 - Open a new terminal: `export YAGNA-APPKEY = YOUR-YAGNA-APPKEY`  
 - `yagna payment init -r`  
 - `python script.py`  
-4. Inspect the contents of the `out` folder to see which node have cracked the passwd. 
+4. Inspect the contents of the `out` folder to see which nodes have cracked the passwd. 
 - `cd out`  
 - `cat cracked_*`  
 
 ## Demo  
-[https://youtu.be/L1ht9E93I_0](https://youtu.be/L1ht9E93I_0)
+[https://youtu.be/L1ht9E93I_0](https://youtu.be/L1ht9E93I_0)  
+
+## Caveat
+Some nodes may fail to crack the passwd.  
